@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>These are the following categories</h1>
+<div style="text-align:center; margin-top: 20px;">
+    <a style="text-align:center; padding: 20px;" asp-area="" asp-controller="Categories" asp-action="Details" asp-route-value="Food">Food</a>
+    <a style="text-align:center; padding: 20px;" asp-area="" asp-controller="Categories" asp-action="Details" asp-route-value="Tech">Tech</a>
+    <a style="text-align:center; padding: 20px;" asp-area="" asp-controller="Categories" asp-action="Details" asp-route-value="Sports">Sports</a>
+</div>
+
